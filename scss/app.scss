@@ -1,0 +1,383 @@
+@import "settings";
+@import "foundation";
+
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switches",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
+
+
+
+/* custom navigation styles */
+// @media #{$medium-up} {
+
+// header .fixed {
+// 	height: 50px;
+// 	background: $pgblue;
+// 	.top-bar-section li.active:not(.has-form) a:not(.button) {
+// 		line-height: 50px;
+// 	}
+// 	.top-bar-section li:not(.has-form) a:not(.button) {
+// 		line-height: 50px;
+// 		background: $pgblue;
+// 		color: #fff;
+// 	}
+// 	.top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
+// 		height: 50px;
+// 	}
+// }
+// .custom-nav {
+// 	top: -50px;
+// 	height: 200px;
+// }
+// .fixed.custom-nav {
+// 	top: 0;
+// 	height: 50px;
+// 	-webkit-transition: top .3s ease-out;
+//     	-moz-transition: top .3s ease-out;
+//     	-o-transition: top .3s ease-out;
+//     	transition: top .3s ease-out;
+// }
+// .fixed .top-bar {
+// 	height: 50px;
+// 	background: $pgblue;
+// 	padding-top: 0;
+// }
+// }
+
+@media #{$small-only} { 
+	top: 0;
+}
+/* custom nav bar  */
+[data-magellan-expedition-clone] { 
+	visibility:hidden; 
+}
+[data-magellan-expedition], [data-magellan-expedition-clone] {
+	padding: 0;
+}
+/* div[data-magellan-expedition-clone] + div[data-magellan-expedition="fixed"] {margin-top:100px;} */
+
+[data-magellan-expedition] {
+	background: none;
+}
+@media only screen and (min-width: 40.063em) { 
+     /* underline effect */
+	/* .top-bar-section ul li:hover:not(.has-form) > a {
+		border-bottom: 5px solid $pgblue;
+	} */
+
+  #options-bar label {
+    color: #fff;
+  }
+
+	#nav-wrapper {
+		height: 90px;
+    /* padding-top: 50px; */
+    .top-bar {
+     /*  margin-top: 50px; */
+     z-index: 1000;
+    }
+    .logo {
+      background: url('../img/pregel-itc-logo-fixed.png') no-repeat center center;
+    }
+	}
+	#nav-wrapper.fixed {
+		height: 50px;
+    padding-top: 0;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    .top-bar {
+      // margin-top:0;
+    }
+		img {
+			// display: none;
+		}
+		.logo {
+			/* background: url('../img/pregel-itc-logo-fixed.png') no-repeat center center; */
+      background: url('../img/pregel-itc-logo-nav.png') no-repeat center center;
+		}
+		// remove underline effect
+		/* .top-bar-section ul li:hover:not(.has-form) > a {
+	    border-bottom: none;
+		} */
+	}
+
+  .logo-wrapper {
+    position: relative;
+  }
+
+  .logo-wrapper .logo {
+    width: 140px;
+    height:  50px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    //top: -40px;
+    margin-left: -70px;
+    //background: url('../images/pregel-logo.png') no-repeat 0 10px;
+  }
+
+    .fixed .logo-wrapper .logo {
+    width: 140px;
+    height:  140px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 2px;
+    margin-left: -70px;
+    //background: url('../images/pregel-logo-fixed.png') no-repeat 0 10px;
+  }
+
+
+  // Right part
+  .top-bar-section ul.right {
+    width: 50%;
+    padding-left: 140px;
+    /* padding-top: 50px; */
+  }
+
+  .fixed .top-bar-section ul.right {
+    width: 50%;
+    padding-left: 140px;
+    padding-top: 0;
+  }
+  
+  .top-bar-section ul.right li {
+    float:  left;
+  }
+
+  // Left part
+  .top-bar-section ul.left {
+    width:  50%;
+    padding-right: 140px;
+    // padding-top: 50px;
+  }
+  .fixed .top-bar-section ul.left {
+    width: 50%;
+    padding-left: 140px;
+    padding-top: 0;
+  }
+
+  .top-bar-section ul.left li {
+    float:  right;
+  }
+   /* end custom nav bar */
+   /* end custom navigation styles */
+
+   /* image background */
+  #intro {
+  	/* background: url('../img/intro-grid-test.jpg') no-repeat center center fixed; */
+  	height: 100vh;
+  	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .intro-wrapper > div {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  #intro-full {
+    // background-image: url('../img/full-image-test.jpg') no-repeat center center fixed;
+    /* background-image: url('../img/full-image-test.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    /* background: #0f1314; */
+    /*  z-index: 1; */
+  }
+  #intro-full .row {
+    z-index: 5;
+    position: relative;
+  }
+
+  #intro-full-back {
+    background-image: url('../img/full-image-test.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    height: 100vh;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    z-index: 2;
+  //   opacity: 0;
+  // -webkit-transition: opacity 1.5s linear;
+  // -moz-transition: opacity 1.5s linear;
+  // -o-transition: opacity 1.5s linear;
+  // -ms-transition: opacity 1.5s linear;
+  // transition: opacity 1.5s linear;
+  }
+
+//   #fullPage {
+//     position: absolute;
+//     min-width: 100%;
+//     min-height: 100%;
+//     top: 0;
+//     left: 0;
+//     background-color: rgb(255, 255, 255);
+// }
+  
+  /* testing-video-background */
+  #intro-video {
+    background: rgba(64, 81, 86, 0.4);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    padding: 40px;
+  }
+  .bgvid-container {
+    position: relative;
+    height: 100vh;
+   }
+   #bgvid {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    overflow: hidden;
+    }
+   /*  end testing video background */
+  
+  }
+
+  .big-logo {
+    /* width: 50%;
+    margin: 40px auto; */
+    margin: 20% 0;
+  }
+  #map-section{
+    background: #f8f8f8;
+  }
+
+  /* Custom map pins: */
+.mapplic-pin.tc-pin {
+  background-image: url(../img/pregel-itc-logo-sml.png);
+  background-size: 30px 30px;
+  width: 30px;
+  height: 30px;
+  margin-top: -15px;
+  margin-left: -15px;
+}
+
+  #locations-section {
+    min-height: 600px;
+   /*  padding: 50px 0; */
+  }
+
+  #intro-slide {
+    background: url('../img/full-image-test.jpg') no-repeat center center;
+    color: #fff;
+    min-height: 600px;
+    h2 {
+    color: #fff;
+    margin-top: 170px;
+    }
+  }
+  .orbit-container .orbit-prev, .orbit-container .orbit-next {
+    height: 200px;
+    margin-top: -90px;
+    width: 66px;
+  }
+  .orbit-container .orbit-prev > span {
+    // width: 36px;
+    width: 0; 
+    height: 0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent; 
+    border-right:20px solid white; 
+    margin-top: -20px;
+  }
+   .orbit-container .orbit-next > span {
+    width: 0; 
+    height: 0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid white;
+    margin-top: -20px;
+  }
+  ul.orbit-locations li .row.actions {
+    padding: 30px 0;
+  }
+   ul.orbit-locations li .row {
+      img, h2 {
+         padding-top: 20px;
+        }
+   }
+  #faq-section {
+    padding: 50px 0;
+    background: #deeaf6;
+  }
+  #request-section {
+    padding: 50px 0;
+  }
+  #footer-section {
+  background: #7dacda;
+  min-height: 300px;
+  color: #fff;
+  padding: 50px 0;
+  h3 {
+    color: #fff;
+  }
+  a {
+    color: #fff;
+  }
+}

@@ -1,0 +1,228 @@
+{
+	"mapwidth":"1200",
+	"mapheight":"760",
+	"categories":[
+
+	],
+	"levels":[
+		{
+			"id":"world",
+			"title":"World",
+			"map":"maps/world2.svg",
+			"locations":[
+			    {
+					"id": "it-re",
+					"title": "PreGel International Training Center - Italy",
+					"description": "<p>PreGel S.p.A. Headquarters<br />Ezio Comparoni # 64<br />Gavasseto, Reggio Emilia (RE) 42122<br />Tel.: +39.0522.394.211<br /> Fax: +39.0522.394.305</p>",
+					"pin": "tc-pin",
+					"link": "#",
+					"orbitlink": "location-it-re",
+					"x": "0.5313",
+					"y": "0.4870"
+				},
+				 {
+					"id": "po-po",
+					"title": "PreGel International Training Center - Poland",
+					"description": "<p>ul. Brzozowa 9 - 95-030 Rzgow<br />Polonia<br />Tel: (+48 42) 214-22-22<br /> Fax: (+48 42) 214-11-77</p>",
+					"pin": "tc-pin",
+					"link": "#",
+					"orbitlink": "location-po-po",
+					"x": "0.5600",
+					"y": "0.4515"
+				},
+				{
+					"id": "sw-sv",
+					"title": "PreGel International Training Center - Switzerland",
+					"description": "<p>Via alla stampa 5 a<br />6965 Cadro - Svizzera<br />Tel: 0041 916001640/48<br /> Fax: 0041 916001641</p>",
+					"pin": "tc-pin",
+					"link": "#",
+					"orbitlink": "location-sw-sv",
+					"x": "0.5235",
+					"y": "0.4760"
+				},
+				{
+					"id": "as-lg",
+					"title": "PreGel International Training Center - Austria",
+					"description": "<p>Grazer Straße 58<br />A-8665 Langenwang<br />Austria<br />Tel: 0043 3854 6116<br /> Fax: 0043 3854 6116/4</p>",
+					"pin": "tc-pin",
+					"link": "#",
+					"orbitlink": "location-as-lg",
+					"x": "0.5400",
+					"y": "0.4692"
+				},
+				{
+					"id": "bx-bx",
+					"title": "PreGel International Training Center - Benelux",
+					"description": "<p>SPAARPOT OOST 1<br />5667 KT GELDROP<br />NL856044362B01</br>KVK 65267346<br />Tel: 0031 40 7820870</p>",
+					"pin": "tc-pin",
+					"link": "#",
+					"orbitlink": "location-bx-bx",
+					"x": "0.5160",
+					"y": "0.4470"
+				},
+				{
+					"id": "ca-to",
+					"title": "PreGel International Training Centre - Toronto",
+					"description": "<p>221 Don Hillock Dr.<br />Aurora, ON L4G 0K2<br />Tel:+1 905 727 3068<br /> Fax: 905 265 7933</p>",
+					"pin": "tc-pin",
+					"link": "#",
+					"orbitlink": "location-ca-to",
+					"x": "0.3014",
+					"y": "0.4883"
+				},
+				{
+					"id": "ca-vc",
+					"title": "PreGel International Training Centre - Vancouver",
+					"description": "<p>19272 96th Ave, Unit 4<br />Surrey, BC, V4N 4C1<br />Tel: 778 298 2898<br /> Fax: 778 298 2896</p>",
+					"pin": "tc-pin",
+					"link": "#",
+					"orbitlink": "location-ca-vc",
+					"x": "0.1771",
+					"y": "0.4650"
+				},
+				{
+					"id": "us-tx",
+					"title": "PreGel International Training Center - Texas",
+					"description": "Coming Soon",
+					"pin": "tc-pin",
+					"x": "0.2367",
+					"y": "0.5500"
+				},
+				{
+					"id": "us-ny",
+					"title": "PreGel International Training Center - New York",
+					"description": "Coming Soon",
+					"pin": "tc-pin",
+					"x": "0.2989",
+					"y": "0.5162"
+				},
+				{
+					"id": "us-ch",
+					"title": "PreGel International Training Center - Chicago",
+					"description": "Coming Soon",
+					"pin": "tc-pin",
+					"x": "0.2641",
+					"y": "0.5087"
+				},
+				{
+					"id": "ch-hk",
+					"title": "PreGel International Training Center - Hong Kong",
+					"description": "Coming Soon",
+					"pin": "tc-pin",
+					"x": "0.7982",
+					"y": "0.5966"
+				},
+				{
+					"id": "us-clt",
+					"title": "PreGel International Training Center - Charlotte",
+					"description": "<p>4450 Fortune Avenue NW<br />Concord, NC 28027<br />Tel: 704 707 0300<br /> Fax: 704 707 0301</p>",
+					"pin": "tc-pin",
+					"link": "#",
+					"orbitlink": "location-us-clt",
+					"x": "0.2813",
+					"y": "0.5508"
+				},
+				{
+					"id": "us-la",
+					"title": "PreGel International Training Center - Los Angeles",
+					"description": "<p>116 S Brent Circle<br />Walnut, CA 91789<br />Tel:+1 909-598-8980</p>",
+					"pin": "tc-pin",
+					"link": "#",
+					"orbitlink": "location-us-la",
+					"x": "0.1821",
+					"y": "0.5350"
+				},
+				{
+					"id": "us-fl",
+					"title": "PreGel International Training Center - Ft. Lauderdale",
+					"description": "<p>1475 W Cypress Creek Rd. Suite 205<br />Ft. Lauderdale , Florida 33309<br />Tel: +1 954 908 1535</p>",
+					"pin": "tc-pin",
+					"link": "#",
+					"orbitlink": "location-us-fl",
+					"x": "0.2846",
+					"y": "0.5845"
+				},
+				{
+					"id": "br-ca",
+					"title": "PreGel International Training Center – Brasil",
+					"description": "<p>Rua Guapuruvu, 177- 1º andar<br />Alphaville Empresarial--Campinas<br />SP 13098-322 - Brasil<br />Tel: +55 19 3796 9999</p>",
+					"pin": "tc-pin",
+					"link": "#",
+					"orbitlink": "location-br-ca",
+					"x": "0.3657",
+					"y": "0.8039"
+				},
+				{
+					"id": "mx-ja",
+					"title": "PreGel International Training Center – Mexico",
+					"description": "<p>Calle San Miguel 308<br />Bodega n° 26<br />Colonia: Bodegas San Juan Ocotán<br />Zapopan, Jalisco Código Postal 45110<br />Tel: +52 33 3673 5773 / +52 33 3673 6428</p>",
+					"pin": "tc-pin",
+					"link": "#",
+					"orbitlink": "location-mx-ja",
+					"x": "0.2266",
+					"y": "0.6096"
+				},
+				{
+					"id": "co-ch",
+					"title": "PreGel International Training Center – Colombia",
+					"description": "<p>Carrera 1era No. 4-02 Interior 3<br />Parque Industrial K2 | Municipio de Chia<br />Departamento de Cundinamarca<br />Código postal 250001<br />Tel: +57 1 884 4421</p>",
+					"pin": "tc-pin",
+					"link": "#",
+					"orbitlink": "location-co-ch",
+					"x": "0.3020",
+					"y": "0.6800"
+				},
+				{
+					"id": "co-me",
+					"title": "PreGel International Training Center – Medellín, Colombia",
+					"description": "<p>Calle 11 No. 43b-50 <br />Centro Empresarial Calle 11 <br />Local 108 <br />Medellín, Antioquia<br />Tel: +57 1 311 9162</p>",
+					"pin": "tc-pin",
+					"link": "#",
+					"orbitlink": "location-co-me",
+					"x": "0.2950",
+					"y": "0.6700"
+				},
+				{
+					"id": "ec-qu",
+					"title": "PreGel International Training Center – Ecuador",
+					"description": "<p>Av. Carapungo Oe8-26 y Chasqui (Calderón)<br />Quito, Ecuador<br />Tel: +593 2 282 1399 / +593 2 202 0345</p>",
+					"pin": "tc-pin",
+					"link": "#",
+					"orbitlink": "location-ec-qu",
+					"x": "0.2895",
+					"y": "0.7040"
+				},
+				{
+					"id": "de-kh",
+					"title": "PreGel International Training Center Deutschland",
+					"description": "<p>Vertriebsgesellschaft mbH<br />Marsstr. 3 D-85551<br />Kirchheim bei München, Deutschland<br />Tel: +49 - (0)89 - 99 19 96 - 0<br /> Fax: +49 - (0)89 - 99 19 96 - 50</p>",
+					"pin": "tc-pin",
+					"link": "#",
+					"orbitlink": "location-de-kh",
+					"x": "0.5310",
+					"y": "0.4620"
+				},											
+				{
+					"id": "au-mv",
+					"title": "PreGel International Training Center - Australia",
+					"description": "<p>Unit 3, 123 National Boulevard<br />Campbellfield 3061<br />Melbourne - Victoria Australia<br />Tel: 0061 3 9357 5336<br /> Fax: 0061 3 9357 5339</p>",
+					"pin": "tc-pin",
+					"link": "#",
+					"orbitlink": "location-au-mv",
+					"x": "0.8785",
+					"y": "0.8650"
+				},
+				{
+					"id": "sp-ma",
+					"title": "PreGel International Training Center - España",
+					"description": "<p>Paseo de las Flores, 21 Nave 1<br />28823 Coslada, Madrid - ESPAÑA<br />Tel. 911457000<br /> Fax. 911457004</p>",
+					"pin": "tc-pin",
+					"link": "#",
+					"orbitlink": "location-sp-ma",
+					"x": "0.4909",
+					"y": "0.5133"
+				}
+			]
+		}
+	]
+}

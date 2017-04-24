@@ -1,0 +1,1 @@
+$(document).on("ready page:load",function(){$(document).foundation({"magellan-expedition":{active_class:"active",threshold:500,destination_threshold:90,throttle_delay:50,fixed_top:0,offset_by_height:!0},orbit:{next_on_click:!1}})});
